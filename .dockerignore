@@ -1,0 +1,15 @@
+node_modules
+npm-debug.log
+coverage
+.nyc_output
+__tests__
+.git
+.gitignore
+.github
+.vscode
+.scannerwork
+*.md
+jest.config.js
+Jenkinsfile
+sonar-project.properties
+k8s
