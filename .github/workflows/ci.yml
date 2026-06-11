@@ -1,0 +1,59 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+          cache: npm
+
+      - name: Validar estructura del proyecto
+        run: |
+          echo "Verificando estructura..."
+          test -f app.js
+          test -f taskManager.js
+          test -f validators.js
+          test -f server.js
+          test -f package.json
+          test -d __tests__
+
+      - name: Validar sintaxis JavaScript
+        run: |
+          node -c app.js
+          node -c taskManager.js
+          node -c validators.js
+          node -c server.js
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Auditoría de dependencias
+        run: npm audit --audit-level=high || true
+
+      - name: Ejecutar tests
+        run: npm test
+
+      - name: Subir cobertura a Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          fail_ci_if_error: false
+
+      - name: Verificar que la aplicación inicia
+        run: |
+          timeout 10s node server.js || code=$?
+          if [ "$code" != "124" ] && [ "$code" != "" ]; then
+            exit $code
+          fi

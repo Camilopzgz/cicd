@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781139534366" clover="3.2.0">
+  <project timestamp="1781139534367" name="All files">
+    <metrics statements="80" coveredstatements="78" conditionals="30" coveredconditionals="30" methods="26" coveredmethods="25" elements="136" coveredelements="133" complexity="0" loc="80" ncloc="80" packages="1" files="3" classes="3"/>
+    <file name="app.js" path="/media/andres/Andres_Backup1/University/Mastery/Software Architecture/Fundamentos de DevOps/Tasks/Task 3/code/app.js">
+      <metrics statements="46" coveredstatements="44" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="9"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="14" type="stmt"/>
+      <line num="22" count="14" type="stmt"/>
+      <line num="23" count="14" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="3" type="stmt"/>
+      <line num="34" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="6" type="stmt"/>
+      <line num="43" count="6" type="stmt"/>
+      <line num="45" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="49" count="5" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="3" type="stmt"/>
+      <line num="64" count="3" type="stmt"/>
+      <line num="66" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="70" count="2" type="stmt"/>
+      <line num="71" count="2" type="stmt"/>
+      <line num="73" count="2" type="stmt"/>
+      <line num="76" count="1" type="stmt"/>
+      <line num="77" count="2" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="86" count="0" type="stmt"/>
+      <line num="87" count="0" type="stmt"/>
+      <line num="91" count="1" type="stmt"/>
+    </file>
+    <file name="taskManager.js" path="/media/andres/Andres_Backup1/University/Mastery/Software Architecture/Fundamentos de DevOps/Tasks/Task 3/code/taskManager.js">
+      <metrics statements="24" coveredstatements="24" conditionals="11" coveredconditionals="11" methods="15" coveredmethods="15"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="7" count="49" type="stmt"/>
+      <line num="14" count="49" type="stmt"/>
+      <line num="15" count="49" type="stmt"/>
+      <line num="19" count="7" type="stmt"/>
+      <line num="23" count="21" type="stmt"/>
+      <line num="27" count="16" type="stmt"/>
+      <line num="28" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="14" type="stmt"/>
+      <line num="38" count="5" type="stmt"/>
+      <line num="39" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="3" type="stmt"/>
+      <line num="42" count="3" type="stmt"/>
+      <line num="46" count="9" type="stmt"/>
+      <line num="50" count="47" type="stmt"/>
+      <line num="51" count="47" type="stmt"/>
+      <line num="55" count="3" type="stmt"/>
+      <line num="59" count="6" type="stmt"/>
+      <line num="63" count="6" type="stmt"/>
+      <line num="67" count="2" type="stmt"/>
+    </file>
+    <file name="validators.js" path="/media/andres/Andres_Backup1/University/Mastery/Software Architecture/Fundamentos de DevOps/Tasks/Task 3/code/validators.js">
+      <metrics statements="10" coveredstatements="10" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="25" type="stmt"/>
+      <line num="5" count="25" type="cond" truecount="5" falsecount="0"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="9" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="21" type="cond" truecount="4" falsecount="0"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="17" count="20" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
